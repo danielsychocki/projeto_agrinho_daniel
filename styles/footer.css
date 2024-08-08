@@ -1,0 +1,39 @@
+.rodape {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rodape_titulo {
+    font-size: 2em;
+    font-family: var(--fonte-paragrafo);
+    color: white;
+}
+
+.rodape__lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rodape__lista li {
+    margin-bottom: 10px;
+}
+
+.rodape__lista li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-family: var(--fonte-paragrafo);
+    font-size: 1em;
+}
+
+.rodape__lista li a:hover {
+    text-decoration: underline;
+}
+
+.rodape__item{
+    text-align: left;
+}
